@@ -3,9 +3,7 @@
 namespace example {
 
   class Test {
-  private:
-    friend class TestBinding;
-
+  public:
     int runTest() const;
   };
 
